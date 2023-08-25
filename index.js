@@ -38,8 +38,8 @@ app.get('/api/notes', (request,response)=>{
 const PORT = process.env.PORT || 3001
 const HOST= 'localhost'; 
 
-app.listen(PORT,HOST,()=>{
-    console.log(`Server running on port http://${HOST}:${PORT}`)
+app.listen(PORT,()=>{
+    console.log(`Server running on port ${PORT}`)
 })
 
 
