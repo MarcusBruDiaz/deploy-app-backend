@@ -10,8 +10,8 @@ let notes=[
     {
         id: 1,
         content:"Browser can execute only JavaScript",
-        number: "040-123456",
-        important: true
+        date:"2020-01-10T18:39:34.091z  ",
+        important: false
     }
 ]
 
