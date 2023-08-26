@@ -32,7 +32,7 @@ app.get('/api/notes', (request,response)=>{
     response.json(notes)
 })
 
-
+//cd ../example-submission-repository-MarcusBruDev/part2/notes/
 
 
 const PORT = process.env.PORT || 3001
